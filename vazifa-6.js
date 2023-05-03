@@ -1,21 +1,28 @@
-let a = 11;
-let b = 51;
-let c = 3;
+let a = -1;
+let b = 11;
+let c = 111;
 
 let counter = 0;
 
-if(a >= 10 && a <= 99 && a > 0){
-    counter++;
-
-    if(b >= 10 && b <= 99 && b > 0){
+if(a > 0 || b > 0 || c > 0){
+    if(a >= 10 && a <= 99){
         counter++;
-
-        if(c >= 10 && c <= 99 && c > 0){
-            counter++;
-        }
+        // console.log(counter)
     }
 
-    console.log(counter + " tasi musbat ikki xonali son!");
-}  
+    if(b >= 10 && b <= 99){
+        counter++;
+        // console.log(counter)
+    }
 
-else console.log("Hammasi musbat ikki xonali son emas!");
+    if(c >= 10 && c <= 99){
+        counter++;
+        // console.log(counter)
+    }
+
+    console.log(counter + " tasi musbat ikki xonali son!")
+}
+
+else {
+    console.log("Berilgan son musbat emas!")
+}

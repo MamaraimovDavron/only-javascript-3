@@ -1,6 +1,6 @@
-let a = -11;
+let a = -1;
 let b = -3;
-let c = 0;
+let c = -10;
 
 if((a + b > b + c) && (a + b > a + c)){
     console.log(a + ", " + b);
